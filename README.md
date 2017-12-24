@@ -10,11 +10,18 @@ ruby ~/.shell/url-encode-ja.rb -q https://www.wikihow.jp/コンセントにア�
 ```
 
 ## [macOS] Alfred.app + PowerPack 使用の場合
-Alfred のインプット画面で`uej https://www.wikihow.jp/コンセントにアースを付ける`とか入力すると，日本語のみをURLエンコードした文字列をクリップボードにコピーしてくれる．
+
+Alfred のインプット画面で
+```
+uej https://www.wikihow.jp/コンセントにアースを付ける
+```
+とか入力すると，日本語のみをURLエンコードした文字列をクリップボードにコピーしてくれる．
 便利．
 
-![実行画面サムネイル](./thumbnail.png =900x)
+### サムネイル
+![実行画面サムネイル](./thumbnail.png)
 
+### 準備
 とりあえずrubyスクリプトとworkflowを`~/.shell/url-encode-ja/`に持ってくる．
 ```bash
 git clone https://github.com/serendipity3/url-encode-ja.git ~/.shell/url-encode-ja/
